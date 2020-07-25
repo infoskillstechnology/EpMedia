@@ -11,7 +11,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:textSize="20sp"
-        android:text="请选择文件:\n"
+        android:text="Please select file:\n"
         android:textColor="@color/colorPrimary"/>
 
     <LinearLayout
@@ -20,22 +20,31 @@
         android:orientation="horizontal"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="40dp">
-
+        <Button
+            android:id="@+id/bt_add_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add Music"/>
         <Button
             android:id="@+id/bt_add"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="20dp"
-            android:text="添加视频"/>
+            android:text="Add video"/>
 
         <Button
             android:id="@+id/bt_merge"
-            android:layout_width="0dp"
-            android:layout_height="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="20dp"
-            android:text="开始合并"/>
+            android:text="Start to merge"/>
+        <Button
+            android:id="@+id/bt_music"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add Music"/>
 
 
     </LinearLayout>
